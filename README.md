@@ -8,7 +8,7 @@ A backend API built with Node.js, Express, and MongoDB to manage user subscripti
 -   **Subscription Management**: Create and manage service subscriptions for authenticated users.
 -   **Automated Reminders**: Schedules durable, long-running workflows with Upstash to send email reminders 7, 5, 2, and 1 day(s) before a subscription renewal date.
 -   **RESTful API**: Clean, organized, and scalable API structure.
--   **Security**: Includes password hashing with `bcryptjs` and bot protection with `arcjet`.
+-   **Security**: Includes password hashing with `bcryptjs` and bot protection and rate limiting with `arcjet`.
 
 ## Technologies Used
 
