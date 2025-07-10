@@ -9,7 +9,7 @@ import subscriptionRouter from './routes/subscriptions.routes.js';
 import connectToDatabase from './database/mongodb.js'
 import errorMiddleware from './middlewares/error.middleware.js'
 import arcjetMiddleware from './middlewares/arcject.middleware.js'
-// import workflowRouter from './routes/workflow.routes.js'
+import workflowRouter from './routes/workflow.routes.js'
 
 const app = express();
 
